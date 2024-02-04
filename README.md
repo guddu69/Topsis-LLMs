@@ -16,7 +16,7 @@ All the models used are sourced from [Hugging face](https://huggingface.co).
 2. **BLEU Score (Bi-Lingual Evaluation Understudy)** : measures n-gram overlaps between a generated text and reference texts.
 3. **METEOR Score (Metric for Evaluation of Translation with Explicit Ordering)** : combines elements of BLEU and ROUGE by considering n-gram precision, recall, and word order similarity.
 
-## Final Output
+## Output
 Models | Precision | Recall | F1 Score | METEOR | BLEU | Topsis Score | Rank
 --- | --- | --- | --- |--- |--- |--- |--- 
 M1 | 0.845326 | 0.48746 | 0.618348 | 0.099406 | 0.000768 | 0.291483 | 3
@@ -26,3 +26,11 @@ M4 | 0.856211 | 0.50466 | 0.635028 | 0.112289 | 0.001518 | 0.475114 | 2
 
 ## Best Model
 M2 : [philschmid/bart-large-cnn-samsum](https://huggingface.co/philschmid/bart-large-cnn-samsum)
+
+## Plots
+
+![bert](plots/topsis.png)
+![bert](plots/meteor.png)
+![bert](plots/bleu.png)
+![bert](plots/bert.png) 
+
